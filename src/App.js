@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import Todos from "./components/Todos";
 import Form from "./components/Form";
@@ -32,7 +33,7 @@ const App = () => {
   return (
     <div className="container">
       <header>
-        <h1 className="title">ToDos</h1>
+        <h1 className="title">ToDo List</h1>
       </header>
       <div className="app">
         <Todos todos={todos} onClick={removeTodo} />
